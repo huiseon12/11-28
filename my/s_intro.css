@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Dolbomche_R';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/Dolbomche_R.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Dolbomche_R';
+    margin: 0 auto;
+    background-color: rgb(244, 248, 234);
+}
+header{
+    width: 100%;
+    height: 80px;
+    border: 1px solid;
+    position: fixed;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.menubtn{
+    margin-top: 23px;
+    padding-top: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+.menubtn:hover{
+    color: olivedrab;
+}
